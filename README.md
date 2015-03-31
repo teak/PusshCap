@@ -3,6 +3,8 @@ Simple command line exe to capture screenshots.
 
 There is a compiled 64 bit exe for convenience.
 
+Requires .NET Framework to be installed.
+
 Captures the screen that the mouse cursor is on to the file specified as the only command line argument. If there are no args, it will save to 'cap.png' in the same directory as the exe. Always saves as PNG.
 
 Outputs one line to stdout. A comma separated list of useful info about the screen of which the shot was taken:
