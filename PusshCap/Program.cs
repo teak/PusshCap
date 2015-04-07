@@ -26,7 +26,7 @@ namespace PusshCap
             {
                 using (Graphics g = Graphics.FromImage(bitmap))
                 {
-                    g.CopyFromScreen(bounds.Location, Point.Empty, bounds.Size);
+                    g.CopyFromScreen(bounds.Location, Point.Empty, bounds.Size, CopyPixelOperation.SourceCopy);
                 }
                 bitmap.Save(name, ImageFormat.Png);
             }
